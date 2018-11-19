@@ -1,0 +1,310 @@
+/*!
+ * LESS version of the stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Its intention is to
+ * use kmom01.css and lessify the style and use this as a wrapper for the new
+ * style.
+ */
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+/**
+ * Style for the stylechooser.
+ */
+/**
+ * Variables
+ */
+/**
+ * Style
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+html {
+  background-color: #D7E0F1;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #fff;
+  font: 100%/1 serif;
+}
+.rm-default a {
+  display: block;
+  text-decoration: none;
+  white-space: nowrap;
+  outline: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+* {
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 2em;
+  font-family: 'Abel', sans-serif;
+}
+h4 {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: 'Abel', sans-serif;
+}
+p {
+  overflow: hidden;
+  font-family: 'Abel', sans-serif;
+}
+a {
+  font-family: 'Abel', sans-serif;
+}
+img {
+  max-width: 100%;
+  margin: 0;
+}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Variables
+ */
+/**
+ * General layout
+ */
+.inner-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+a {
+  color: #000;
+  text-decoration: none;
+  margin: 2px;
+}
+a:hover {
+  font-weight: bold;
+  text-decoration: none;
+  color: #6085c9;
+  text-decoration: underline;
+}
+.region-header-col-1 {
+  display: inline;
+  float: left;
+  width: 15%;
+  text-shadow: 1px 1px #808080;
+}
+.inner-wrap-flash {
+  text-align: center;
+}
+.site-logo {
+  display: none;
+}
+.site-logo-text a {
+  color: #333;
+  text-decoration: none;
+  font-size: 40px;
+}
+.rm-navbar {
+  text-decoration: none;
+  font-size: 27px;
+}
+.rm-navbar li {
+  float: left;
+  margin-left: 1em;
+}
+.rm-navbar li a:hover {
+  color: #6085c9;
+  text-decoration: underline;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+.article {
+  text-align: justify;
+  height: 0 auto;
+  overflow: auto;
+}
+.figure.right {
+  float: right;
+  margin-top: 0;
+}
+.figure.right img {
+  border: 1px solid #808080;
+  float: right;
+  margin-left: 2em;
+}
+.figure.left {
+  float: left;
+}
+.region-breadcrumb {
+  margin-left: 9em;
+}
+.section-header {
+  text-decoration: underline;
+  font-size: 20px;
+}
+.region-main {
+  overflow: auto;
+}
+.block {
+  margin-left: 2em;
+}
+.previous {
+  margin-left: 2em;
+}
+.previous a {
+  display: inline;
+  color: #000;
+  text-align: left;
+  text-decoration: none;
+}
+.previous a:hover {
+  color: #6085c9;
+  text-decoration: underline;
+}
+.next {
+  float: right;
+  overflow: auto;
+  margin-right: 3em;
+}
+.next a {
+  color: #000;
+  text-align: right;
+  text-decoration: none;
+}
+.next a:hover {
+  color: #6085c9;
+  text-decoration: underline;
+}
+.inner-wrap-footer {
+  background-color: #263550;
+  width: 100%;
+  margin: 0;
+  padding-left: 2em;
+  clear: both;
+}
+.outer-wrap-footer {
+  background-color: #263550;
+  width: 100%;
+  padding-bottom: 0;
+  min-height: 15em;
+}
+.footer-column {
+  display: inline;
+  float: left;
+  width: 32.29166667%;
+  margin-left: 0.52083333%;
+  margin-right: 0.52083333%;
+  color: #D3D3D3;
+}
+.byline-text {
+  overflow: auto;
+  min-width: 30em;
+}
+.byline {
+  text-align: left;
+  font-style: italic;
+  overflow: auto;
+  border: 1px solid #808080;
+  padding: 1em;
+  margin-right: 3em;
+}
+.byline img {
+  border: 1px solid #808080;
+  float: left;
+  overflow: auto;
+  margin-right: 2em;
+}
+/**
+ * Layout for responsive style through media queries.
+ */
+@media screen and (max-width: 1500px) {
+  .site-logo {
+    display: none;
+  }
+}
+/**
+ * Navbar
+ */
+@media screen and (max-width: 960px) {
+  .rm-desktop a {
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .region-header-col-1,
+  .region-header-col-3 {
+    width: 10%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .region-header-col-2 {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .rm-desktop {
+    display: none;
+  }
+}
+/**
+ * Show off the regions used in the website, to ease styling.
+ */
+.regions .outer-wrap {
+  background-color: #f4e3c9;
+  border: 1px solid #e3b774;
+}
+.regions .inner-wrap {
+  background-color: #f4e0e9;
+  border: 1px solid #d995b4;
+}
+.regions .region-header-col-1,
+.regions .region-header-col-2,
+.regions .region-header-col-3,
+.regions .region-flash,
+.regions .region-breadcrumb,
+.regions .region-flash-message,
+.regions .region-columns-above,
+.regions .region-main,
+.regions .region-after-main,
+.regions .region-columns-below,
+.regions .region-sidebar-left,
+.regions .region-sidebar-right,
+.regions .region-footer,
+.regions .region-footer-column-1,
+.regions .region-footer-column-2,
+.regions .region-footer-column-3 {
+  background-color: #b5dce1;
+  border: 1px solid #6cbac4;
+  color: #111;
+}
+/**
+ * My own settings, not currently in their own module.
+ */
+@font-face {
+  font-family: 'Abel';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Abel Regular'), local('Abel-Regular'), url(https://fonts.gstatic.com/s/abel/v8/MwQ5bhbm2POE2V9BOA.ttf) format('truetype');
+}

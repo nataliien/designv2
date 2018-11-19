@@ -1,0 +1,63 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: #D7E0F1; //#424242;
+@bgColorBody: #fff; //#fff;
+@colorBody: #333;
+@fontFamilyBody: serif;
+
+html {
+    background-color: @bgColorHtml;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: @colorBody;
+    background-color: @bgColorBody;
+    font: 100%/1 @fontFamilyBody;
+}
+
+.rm-default a {
+    display: block;
+    text-decoration: none;
+    white-space: nowrap;
+    outline: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2em;
+    font-family: 'Abel', sans-serif;
+}
+
+h4 {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: 'Abel', sans-serif;
+}
+
+p {
+    overflow: hidden;
+    font-family: 'Abel', sans-serif;
+}
+
+a {
+    font-family: 'Abel', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    margin: 0;
+}
