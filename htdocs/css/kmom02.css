@@ -4585,8 +4585,6 @@ html {
   background-color: #D7E0F1;
 }
 body {
-  margin: 0;
-  padding: 0;
   color: #333;
   background-color: #fff;
   font: 100%/1 serif;
@@ -4621,7 +4619,15 @@ p {
   font-family: 'Abel', sans-serif;
 }
 a {
+  color: #000;
+  text-decoration: none;
   font-family: 'Abel', sans-serif;
+}
+a:hover {
+  font-weight: bold;
+  text-decoration: none;
+  color: #6085c9;
+  text-decoration: underline;
 }
 img {
   max-width: 100%;
