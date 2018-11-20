@@ -4,17 +4,20 @@
 @bgColorHtml: #D7E0F1; //#424242;
 @bgColorBody: #fff; //#fff;
 @colorBody: #333;
-// @fontFamilyBody: serif;
+// @fontFamilyBody: sans-serif;
+
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:300');
 
 html {
     background-color: @bgColorHtml;
+    font-size: 100%;
 }
 
 body {
     color: @colorBody;
     background-color: @bgColorBody;
-    // font: 100%/1 @fontFamilyBody;
-    #desinax-hgrid.font(@fontSizeBody);
+    font-family: 'Yantramanav', sans-serif;
+
 }
 
 .rm-default a {
@@ -48,6 +51,7 @@ h4 {
 
 p {
     overflow: hidden;
+    font-size: 1em;
 }
 
 a {

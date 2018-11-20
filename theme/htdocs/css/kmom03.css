@@ -4614,13 +4614,20 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 /**
  * Base style to affect HTML elements on a general scale.
  */
+@font-face {
+  font-family: 'Yantramanav';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Yantramanav Light'), local('Yantramanav-Light'), url(https://fonts.gstatic.com/s/yantramanav/v3/flUhRqu5zY00QEpyWJYWN59Yf_NeKBY.ttf) format('truetype');
+}
 html {
   background-color: #D7E0F1;
+  font-size: 100%;
 }
 body {
   color: #333;
   background-color: #fff;
-  font: 16px/1.5 Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Yantramanav', sans-serif;
 }
 .rm-default a {
   display: block;
@@ -4647,6 +4654,7 @@ h4 {
 }
 p {
   overflow: hidden;
+  font-size: 1em;
 }
 a {
   color: #000;
