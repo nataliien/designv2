@@ -78,5 +78,24 @@ return [
             "url" => "test",
             "title" => "Testa olika konstruktioner",
         ],
+        [
+            "text" => "Rapporter",
+            "url" => "rapport",
+            "title" => "Rapporter från kursmomenten",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Rapporter",
+                        "url" => "rapport/index",
+                        "title" => "Rapporter",
+                    ],
+                    [
+                        "text" => "Färger",
+                        "url" => "rapport/fargschema",
+                        "title" => "Färger",
+                    ],
+                ],
+            ],
+        ],
     ],
 ];
