@@ -40,19 +40,14 @@ html {
 body {
   color: #333;
   background-color: #fff;
-  font: 100%/1 serif;
+  font-family: 'Abel', sans-serif;
 }
-.rm-default a {
+rm-default a {
   display: block;
   text-decoration: none;
   white-space: nowrap;
+  padding: 1em;
   outline: 0;
-}
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
 }
 * {
   box-sizing: border-box;
@@ -71,20 +66,16 @@ p {
   overflow: hidden;
   font-family: 'Abel', sans-serif;
 }
+li {
+  list-style: none;
+}
 a {
   color: #000;
   text-decoration: none;
-  font-family: 'Abel', sans-serif;
 }
 a:hover {
-  font-weight: bold;
+  color: #803550;
   text-decoration: none;
-  color: #6085c9;
-  text-decoration: underline;
-}
-img {
-  max-width: 100%;
-  margin: 0;
 }
 /**
  * Layout style for general structure of header, navbar, main, footer
@@ -149,15 +140,6 @@ a:hover {
   text-align: justify;
   height: 0 auto;
   overflow: auto;
-}
-.figure.right {
-  float: right;
-  margin-top: 0;
-}
-.figure.right img {
-  border: 1px solid #808080;
-  float: right;
-  margin-left: 2em;
 }
 .figure.left {
   float: left;

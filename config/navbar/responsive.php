@@ -16,6 +16,11 @@ return [
             "title" => "Första sidan, börja här.",
         ],
         [
+            "text" => "Om",
+            "url" => "om",
+            "title" => "Om denna webbplats.",
+        ],
+        [
             "text" => "Redovisning",
             "url" => "redovisning",
             "title" => "Redovisningstexter från kursmomenten.",
@@ -60,9 +65,33 @@ return [
             ],
         ],
         [
-            "text" => "Om",
-            "url" => "om",
-            "title" => "Om denna webbplats.",
+            "text" => "Rapporter",
+            "url" => "rapport",
+            "title" => "Rapporter från kursmomenten",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Rapporter",
+                        "url" => "rapport/index",
+                        "title" => "Rapporter",
+                    ],
+                    [
+                        "text" => "Färger",
+                        "url" => "rapport/fargschema",
+                        "title" => "Färger",
+                    ],
+                    [
+                        "text" => "Laddningstid",
+                        "url" => "rapport/laddningstid",
+                        "title" => "Rapport laddningstid",
+                    ],
+                ],
+            ],
+        ],
+        [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "Blogg",
         ],
         [
             "text" => "Styleväljare",
@@ -78,25 +107,6 @@ return [
             "text" => "Test",
             "url" => "test",
             "title" => "Testa olika konstruktioner",
-        ],
-        [
-            "text" => "Rapport",
-            "url" => "rapport",
-            "title" => "Rapporter.",
-            "submenu" => [
-                "items" => [
-                    [
-                        "text" => "Rapporter",
-                        "url" => "rapport/index",
-                        "title" => "Rapporter.",
-                    ],
-                    [
-                        "text" => "Färger",
-                        "url" => "rapport/fargschema",
-                        "title" => "Rapport färger",
-                    ],
-                ],
-            ],
         ],
     ],
 ];

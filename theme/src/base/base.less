@@ -1,10 +1,14 @@
 /**
  * Base style to affect HTML elements on a general scale.
  */
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+
 @bgColorHtml: #D7E0F1; //#424242;
 @bgColorBody: #fff; //#fff;
 @colorBody: #333;
-@fontFamilyBody: serif;
+@fontFamilyBody: 'Abel', sans-serif;
+@fontFamilyHeadings: 'Abel', sans-serif;
 
 html {
     background-color: @bgColorHtml;
@@ -13,21 +17,15 @@ html {
 body {
     color: @colorBody;
     background-color: @bgColorBody;
-    font: 100%/1 @fontFamilyBody;
+    font-family: @fontFamilyBody;
 }
 
-.rm-default a {
+rm-default a {
     display: block;
     text-decoration: none;
     white-space: nowrap;
+    padding: 1em;
     outline: 0;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
 }
 
 * {
@@ -51,20 +49,22 @@ p {
     font-family: 'Abel', sans-serif;
 }
 
+li {
+    list-style: none;
+}
+
 a {
     color: #000;
     text-decoration: none;
-    font-family: 'Abel', sans-serif;
 }
 
 a:hover {
-    font-weight: bold;
+    color: #803550;
     text-decoration: none;
-    color: #6085c9;
-    text-decoration: underline;
 }
 
-img {
-    max-width: 100%;
-    margin: 0;
-}
+
+// img {
+//     max-width: 100%;
+//     margin: 0;
+// }

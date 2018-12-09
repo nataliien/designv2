@@ -15,6 +15,11 @@ return [
             "title" => "Första sidan, börja här.",
         ],
         [
+            "text" => "Om",
+            "url" => "om",
+            "title" => "Om denna webbplats.",
+        ],
+        [
             "text" => "Redovisning",
             "url" => "redovisning",
             "title" => "Redovisningstexter från kursmomenten.",
@@ -59,26 +64,6 @@ return [
             ],
         ],
         [
-            "text" => "Om",
-            "url" => "om",
-            "title" => "Om denna webbplats.",
-        ],
-        [
-            "text" => "Styleväljare",
-            "url" => "style",
-            "title" => "Välj stylesheet.",
-        ],
-        [
-            "text" => "Verktyg",
-            "url" => "verktyg",
-            "title" => "Verktyg och möjligheter för utveckling.",
-        ],
-        [
-            "text" => "Test",
-            "url" => "test",
-            "title" => "Testa olika konstruktioner",
-        ],
-        [
             "text" => "Rapporter",
             "url" => "rapport",
             "title" => "Rapporter från kursmomenten",
@@ -94,8 +79,33 @@ return [
                         "url" => "rapport/fargschema",
                         "title" => "Färger",
                     ],
+                    [
+                        "text" => "Laddningstid",
+                        "url" => "rapport/laddningstid",
+                        "title" => "Rapport laddningstid",
+                    ],
                 ],
             ],
+        ],
+        [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "Blogg",
+        ],
+        [
+            "text" => "Styleväljare",
+            "url" => "style",
+            "title" => "Välj stylesheet.",
+        ],
+        [
+            "text" => "Verktyg",
+            "url" => "verktyg",
+            "title" => "Verktyg och möjligheter för utveckling.",
+        ],
+        [
+            "text" => "Test",
+            "url" => "test",
+            "title" => "Testa olika konstruktioner",
         ],
     ],
 ];

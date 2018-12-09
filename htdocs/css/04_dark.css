@@ -4697,16 +4697,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
     background-size: 100% auto;
   }
 }
-.figure.right img {
-  border: 1px solid #333;
-  float: right;
-  display: inline;
-  float: left;
-  width: 48.95833333%;
-  margin-left: 0.52083333%;
-  margin-right: 0.52083333%;
-  margin-left: -5.72916667%;
-}
 /**
   * Header layout
   */
@@ -4986,4 +4976,8 @@ body {
   background-color: #333;
   color: #fff;
   font-family: monospace;
+}
+img {
+  max-width: 100%;
+  margin: 0;
 }
