@@ -1,5 +1,5 @@
 ---
-title: "Min fina titel"
+title: "Min me-sida"
 ---
 Min me-sida i kursen design
 =========================
