@@ -1,0 +1,89 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+@bgColorHtml: #D7E0F1; //#424242;
+@bgColorBody: #e1ddd8; //#fff;
+@colorBody: #333;
+@fontFamilyBody: 'Open Sans Condensed', sans-serif;
+@fontFamilyHeadings: 'Amatic SC', cursive;
+
+html {
+    background-color: @bgColorHtml;
+}
+
+body{
+    background-image: url(../img/cork-wallet.png);
+    background-repeat:repeat;
+    background-color: @bgColorBody;
+}
+
+rm-default a {
+    display: block;
+    text-decoration: none;
+    white-space: nowrap;
+    padding: 1em;
+    outline: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2em;
+    font-family: @fontFamilyHeadings;
+}
+
+h2 {
+    font-family: @fontFamilyHeadings;
+}
+
+h3 {
+    font-family: @fontFamilyHeadings;
+}
+
+h4 {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: @fontFamilyHeadings;
+}
+
+p {
+    overflow: hidden;
+    font-family: @fontFamilyBody;
+}
+
+li {
+    list-style: none;
+    font-family: @fontFamilyBody;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    font-family: @fontFamilyHeadings;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #1db3b4;
+    text-decoration: none;
+}
+
+.region-header-col-1 {
+    display: none;
+}
+
+.region-header-col-2 {
+    width: 100%;
+}
+
+
+// img {
+//     max-width: 100%;
+//     margin: 0;
+// }

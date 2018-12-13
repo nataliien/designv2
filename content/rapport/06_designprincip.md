@@ -4,6 +4,8 @@ Designprinciper
 
 I denna rapport kommer jag analysera designprinciper på tre olika webbplatser.
 
+I din rapport berättar du om designen av ditt tema och vilka designelement du valt att jobba med och på vilket sätt du gör det. Ange eventuella källor som förklarar begreppet designelement.
+
 Urval
 -----------------------
 

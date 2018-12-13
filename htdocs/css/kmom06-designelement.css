@@ -1,12 +1,7 @@
 /*!
- * Stylesheet for minimalistic theme kmom04.
+ * Stylesheet for design kmom06-designelement.
  *
- * This stylesheet is for the design course and kmom04 (minimalistic theme) where we use LESS.
- */
-/*!
- * Stylesheet for design kmom04.
- *
- * This stylesheet is for the design course and kmom04 where we use LESS.
+ * This stylesheet is for the design course and kmom05 where we use LESS.
  */
 /**
  * Import font.
@@ -4617,6 +4612,79 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  * Base style to affect HTML elements on a general scale.
  */
 /**
+ * Base style to affect HTML elements on a general scale.
+ */
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Amatic SC Regular'), local('AmaticSC-Regular'), url(https://fonts.gstatic.com/s/amaticsc/v11/TUZyzwprpvBS1izr_vOECuSa.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Condensed Light'), local('OpenSansCondensed-Light'), url(https://fonts.gstatic.com/s/opensanscondensed/v12/z7NFdQDnbTkabZAIOl9il_O6KJj73e7Ff1GhDuXMQg.ttf) format('truetype');
+}
+html {
+  background-color: #D7E0F1;
+}
+body {
+  background-image: url(../img/cork-wallet.png);
+  background-repeat: repeat;
+  background-color: #e1ddd8;
+}
+rm-default a {
+  display: block;
+  text-decoration: none;
+  white-space: nowrap;
+  padding: 1em;
+  outline: 0;
+}
+* {
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 2em;
+  font-family: 'Amatic SC', cursive;
+}
+h2 {
+  font-family: 'Amatic SC', cursive;
+}
+h3 {
+  font-family: 'Amatic SC', cursive;
+}
+h4 {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: 'Amatic SC', cursive;
+}
+p {
+  overflow: hidden;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+li {
+  list-style: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+a {
+  color: #000;
+  text-decoration: none;
+  font-family: 'Amatic SC', cursive;
+  font-weight: bold;
+}
+a:hover {
+  color: #1db3b4;
+  text-decoration: none;
+}
+.region-header-col-1 {
+  display: none;
+}
+.region-header-col-2 {
+  width: 100%;
+}
+/**
  * Import the vertical grid.
  */
 /**
@@ -4878,111 +4946,319 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  * and other regions of the page including route specific styles.
  */
 /**
+ * Layout for responsive style through media queries.
+ */
+@media screen and (max-width: 1500px) {
+  .site-logo {
+    display: none;
+  }
+}
+/**
+ * Navbar
+ */
+@media screen and (max-width: 960px) {
+  .rm-desktop a {
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .region-header-col-1,
+  .region-header-col-3 {
+    width: 10%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .region-header-col-2 {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .rm-desktop {
+    display: none;
+  }
+}
+/**
+ * Show off the regions used in the website, to ease styling.
+ */
+.regions .outer-wrap {
+  background-color: #f4e3c9;
+  border: 1px solid #e3b774;
+}
+.regions .inner-wrap {
+  background-color: #f4e0e9;
+  border: 1px solid #d995b4;
+}
+.regions .region-header-col-1,
+.regions .region-header-col-2,
+.regions .region-header-col-3,
+.regions .region-flash,
+.regions .region-breadcrumb,
+.regions .region-flash-message,
+.regions .region-columns-above,
+.regions .region-main,
+.regions .region-after-main,
+.regions .region-columns-below,
+.regions .region-sidebar-left,
+.regions .region-sidebar-right,
+.regions .region-footer,
+.regions .region-footer-column-1,
+.regions .region-footer-column-2,
+.regions .region-footer-column-3 {
+  background-color: #b5dce1;
+  border: 1px solid #6cbac4;
+  color: #111;
+}
+/**
  * Modules.
  */
 /**
- * My own settings, not currently in their own module.
- */
-/**
- * Header layout minimalistic theme
+ * Header layout
  */
 .site-logo {
   display: none;
 }
 .site-logo-text a {
-  color: #000;
-  text-decoration: none;
-  font-size: 30px;
-}
-.site-logo-text a:hover {
-  color: #fff;
-}
-.site-logo-text-icon {
   display: none;
 }
 .inner-wrap-header {
-  background-color: #fff;
+  background-image: linear-gradient(#e1ddd8, #a7d3d3);
+  border: 2px double #397A7F;
+  margin-bottom: 1em;
 }
-.region-header-col-1,
+.section-header {
+  text-decoration: underline;
+  font-size: 20px;
+}
 .region-header-col-2 {
-  font-family: Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: rgba(29, 179, 193, 0.3);
+  text-align: center;
 }
 /**
  * Navbar layout
  */
 .rm-default ul li {
-  display: none;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
+  background-color: linear-gradient(#e1ddd8, #a7d3d3);
+}
+.rm-navbar ul {
+  background-image: linear-gradient(#e1ddd8, #a7d3d3);
 }
 .rm-navbar {
   text-decoration: none;
-  font-size: 16px;
+  font-size: 30px;
 }
 .rm-navbar li {
   color: #000;
 }
 .rm-navbar li a:hover {
-  color: #808080;
+  color: #1db3b4;
   text-decoration: none;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
 }
 .rm-mobile li {
-  color: #fff;
+  color: #1db3c1;
   text-align: left;
 }
 .rm-desktop li {
-  background-color: #fff;
+  background-image: linear-gradient(#e1ddd8, #a7d3d3);
 }
 .rm-max .rm-mobile .rm-submenu-button {
-  display: none;
+  box-shadow: 0 0 1px rgba(255, 255, 255, 0.4);
+  background-color: #a7d3d3;
+  border-radius: 5px;
+  position: relative;
+  z-index: 1;
 }
 /**
- * Main layout minimalistic theme
+ * Main layout
  */
 .inner-wrap-main {
-  background-color: #E5E5E5;
+  background-color: rgba(29, 179, 193, 0.3);
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+  border: 1px solid #397A7F;
+  padding-bottom: 1em;
 }
 .region-sidebar-left,
 .region-sidebar-right {
-  background-color: #808080;
-  border: 1px solid #333;
+  background-color: rgba(22, 99, 119, 0.6);
+  color: #fff;
+  border: 1px solid #397A7F;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+  padding-left: 1em;
+}
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+  background-color: rgba(22, 99, 119, 0.6);
+  color: #fff;
+  border: 1px solid #397A7F;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.8);
+  padding-left: 1em;
 }
 .article {
   text-align: justify;
+  padding-left: 1em;
 }
-li {
-  list-style: none;
+.figure {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-a {
+.blog-list {
+  padding-left: 1em;
+}
+.breadcrumb-list ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: inline;
+}
+.breadcrumb-list ul li {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+.breadcrumb-list ul li::after {
+  content: " /";
+}
+.breadcrumb-list ul li:last-child::after {
+  content: "";
+}
+.next-previous a {
   color: #000;
+  text-align: right;
   text-decoration: none;
 }
-a:hover {
-  color: #fff;
-  text-decoration: none;
+.next-previous a:hover {
+  color: #1db3b4;
+  text-decoration: underline;
+}
+.byline-text {
+  padding-left: 1em;
+  border-top: 2px double #397A7F;
+  margin-top: 1em;
 }
 .byline img {
-  border: 1px solid #808080;
+  border: 1px solid #397A7F;
   float: left;
+  margin-left: 1em;
   margin-right: 1em;
+  margin-bottom: 1em;
 }
 /**
- * Footer layout minimalistic theme
+ * Footer layout
  */
 .outer-wrap-footer,
 .inner-wrap-footer {
-  background-image: linear-gradient(#fff, #808080);
+  background-image: linear-gradient(#a7d3d3, #e1ddd8);
+  background-color: #e1ddd8;
+  margin-top: 1em;
+  margin-bottom: 0;
 }
-@font-face {
-  font-family: 'Didact Gothic';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Didact Gothic Regular'), local('DidactGothic-Regular'), url(https://fonts.gstatic.com/s/didactgothic/v11/ahcfv8qz1zt6hCC5G4F_P4ASlUuYow.ttf) format('truetype');
+.outer-wrap-footer {
+  border-top: 2px double #397A7F;
 }
-body {
-  background-color: #fff;
-  color: #000;
-  font-family: 'Didact Gothic', sans-serif;
-}
-img {
-  max-width: 100%;
+/**
+ * Figure and figcaption for images and other media using figure/figcaption
+ */
+/**
+ * Figure with ASCIINEMA
+ */
+/**
+ * Figure with Codepen
+ */
+/** --------------------------------------------------------------
+ * Figure through .figure
+ */
+figure.figure,
+figure.asciinema,
+figure.codepen,
+figure.figure-codepen {
+  display: table;
+  padding: 0;
   margin: 0;
+  /* Chrome shinks images in td */
+  /* Position the images */
 }
+figure.figure img {
+  max-width: 100%;
+  display: block;
+}
+figure.figure figcaption {
+  display: table-caption;
+  caption-side: bottom;
+}
+figure.figure figcaption p {
+  margin-top: 0;
+  font-style: italic;
+}
+figure.figure td img {
+  max-width: none;
+}
+figure.figure.left {
+  float: left;
+  margin-right: 8px;
+}
+figure.figure.right {
+  float: right;
+  margin-left: 8px;
+}
+figure.figure.center {
+  clear: both;
+  margin: auto;
+}
+figure.figure.center figcaption {
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  figure.figure.w50 {
+    width: 300px;
+  }
+  figure.figure.w25 {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 550px) {
+  figure.figure.w50 {
+    width: 225px;
+  }
+}
+@media screen and (max-width: 450px) {
+  figure.figure.w50 {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 400px) {
+  figure.figure.w50 {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 320px) {
+  figure.figure.w50 {
+    min-width: 100%;
+  }
+  figure.figure.left,
+  figure.figure.right {
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  figure.figure.left img,
+  figure.figure.right img {
+    width: 640px;
+  }
+}
+figure.asciinema {
+  display: block;
+}
+figure.asciinema figcaption {
+  display: block;
+}
+figure.asciinema .asciicast {
+  margin: 0 !important;
+}
+figure.codepen,
+figure.figure-codepen {
+  width: 100%;
+}
+/**
+ * My own settings, not currently in their own module.
+ */

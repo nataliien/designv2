@@ -4,7 +4,7 @@ title: "Min me-sida"
 Min me-sida i kursen design
 =========================
 
-[FIGURE src="image/jag.jpeg?w=400" class="right"]
+[FIGURE src="image/jag.jpeg?w=400&h=300&crop-to-fit" class="right"]
 
 Jag heter Natalie Nikou och är uppvuxen en bit utanför Stockholm i en liten ort som heter Bålsta.
 För fem år sedan flyttade jag ifrån Bålsta till Stockholm.
