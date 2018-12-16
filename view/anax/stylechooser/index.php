@@ -11,7 +11,10 @@ namespace Anax\View;
 
 
 
-?><h1>Stylechooser</h1>
+?>
+<div class="typewriter">
+<h1>Stylechooser</h1>
+</div>
 <p>Here you can select among the available styles and activate them.</p>
 <form class="stylechooser" method="post" action="<?= url("style/update") ?>">
     <fieldset>

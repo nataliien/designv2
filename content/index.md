@@ -1,8 +1,11 @@
 ---
 title: "Min me-sida"
 ---
-Min me-sida i kursen design
-=========================
+
+<div class="typewriter">
+
+<h1>Natalie's me-sida</h1>
+</div>
 
 [FIGURE src="image/jag.jpeg?w=400&h=300&crop-to-fit" class="right"]
 

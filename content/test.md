@@ -16,7 +16,9 @@ views:
                 type: single
                 route: block/om-redovisa
 ---
-Test page
-=========================
+<div class="typewriter">
+
+<h1>Test page</h1>
+</div>
 
 Testa olika konstruktioner

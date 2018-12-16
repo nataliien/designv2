@@ -1,0 +1,127 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Pompiere');
+@import url('https://fonts.googleapis.com/css?family=Assistant');
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+
+@bgColorHtml: #D7E0F1; //#424242;
+@bgColorBody: #e1ddd8; //#fff;
+@colorBody: #a7d3d3;;
+@fontFamilyHeadings: 'Special Elite', cursive;
+@fontFamilyBody: 'Assistant', sans-serif;
+
+
+
+html {
+    background-color: @bgColorHtml;
+}
+
+body{
+    background-image: url(../img/clouds.png);
+    background-repeat:repeat;
+    background-color: @bgColorBody;
+}
+
+rm-default a {
+    display: block;
+    text-decoration: none;
+    white-space: nowrap;
+    padding: 1em;
+    outline: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 2em;
+    font-family: @fontFamilyHeadings;
+    color: @colorBody;
+}
+
+.typewriter h1 {
+  color: @colorBody;
+  font-size: 2em;
+  font-family: 'Special Elite', cursive;  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid #64122a; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(20, end),
+    blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #64122a }
+}
+
+h2 {
+    font-family: @fontFamilyHeadings;
+    color: @colorBody;
+}
+
+h3 {
+    font-family: @fontFamilyHeadings;
+    color: @colorBody;
+}
+
+h4 {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: @fontFamilyHeadings;
+    color: @colorBody;
+}
+
+p {
+    overflow: hidden;
+    font-family: @fontFamilyBody;
+    color: @colorBody;
+}
+
+li {
+    list-style: none;
+    font-family: @fontFamilyBody;
+    color: @colorBody;
+}
+
+a {
+    color: @colorBody;
+    text-decoration: none;
+    font-family: @fontFamilyHeadings;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+a:hover {
+    color: #64122a;
+    text-decoration: none;
+}
+
+.meta-header {
+    font-family: @fontFamilyBody;
+}
+
+.region-header-col-1 {
+    display: none;
+}
+
+.region-header-col-2 {
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    border: 2px double #09455d;
+}

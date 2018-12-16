@@ -1,5 +1,5 @@
 
-Designprinciper
+Analys Designprinciper
 =======================
 
 I denna rapport kommer jag analysera designprinciper på tre olika webbplatser.

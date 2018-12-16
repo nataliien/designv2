@@ -61,7 +61,7 @@
  */
 
 .region-main {
-    #desinax-vgrid.column(@columns * 3 / 4 - 2);
+    #desinax-vgrid.column(@columns * 3 / 4);
     #desinax-vgrid.push(3);
 
     &.has-sidebar {
@@ -84,7 +84,8 @@
 }
 
 .region-sidebar-right {
-    #desinax-vgrid.column(@columns - 17);
+    #desinax-vgrid.column(@columns * 1 / 4);
+    #desinax-vgrid.push(1.05);
 }
 
 .region-sidebar-left.has-sidebar-right,

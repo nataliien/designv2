@@ -10,17 +10,17 @@ return [
     // Here comes the menu items
     "items" => [
         [
-            "text" => "Hem",
+            "text" => "•Hem•",
             "url" => "",
             "title" => "Första sidan, börja här.",
         ],
         [
-            "text" => "Om",
+            "text" => "•Om•",
             "url" => "om",
             "title" => "Om denna webbplats.",
         ],
         [
-            "text" => "Redovisning",
+            "text" => "•Redovisning•",
             "url" => "redovisning",
             "title" => "Redovisningstexter från kursmomenten.",
             "submenu" => [
@@ -64,7 +64,7 @@ return [
             ],
         ],
         [
-            "text" => "Rapporter",
+            "text" => "•Rapporter•",
             "url" => "rapport",
             "title" => "Rapporter från kursmomenten",
             "submenu" => [
@@ -85,35 +85,40 @@ return [
                         "title" => "Laddningstid",
                     ],
                     [
-                        "text" => "Designprinciper",
+                        "text" => "Analys Designprinciper",
                         "url" => "rapport/designprincip",
-                        "title" => "Designprinciper",
+                        "title" => "Analys Designprinciper",
                     ],
                     [
                         "text" => "Designelement",
                         "url" => "rapport/designelement",
                         "title" => "Designelement",
                     ],
+                    [
+                        "text" => "Designprinciper",
+                        "url" => "rapport/designprinciper",
+                        "title" => "Designprinciper",
+                    ],
                 ],
             ],
         ],
         [
-            "text" => "Blogg",
+            "text" => "•Blogg•",
             "url" => "blogg",
             "title" => "Blogg",
         ],
         [
-            "text" => "Styleväljare",
+            "text" => "•Styleväljare•",
             "url" => "style",
             "title" => "Välj stylesheet.",
         ],
         [
-            "text" => "Verktyg",
+            "text" => "•Verktyg•",
             "url" => "verktyg",
             "title" => "Verktyg och möjligheter för utveckling.",
         ],
         [
-            "text" => "Test",
+            "text" => "•Test•",
             "url" => "test",
             "title" => "Testa olika konstruktioner",
         ],

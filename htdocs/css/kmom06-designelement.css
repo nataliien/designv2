@@ -4673,16 +4673,23 @@ a {
   text-decoration: none;
   font-family: 'Amatic SC', cursive;
   font-weight: bold;
+  font-size: 23px;
 }
 a:hover {
   color: #1db3b4;
   text-decoration: none;
+}
+.meta-header {
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 .region-header-col-1 {
   display: none;
 }
 .region-header-col-2 {
   width: 100%;
+}
+img {
+  max-width: 100%;
 }
 /**
  * Import the vertical grid.
