@@ -21,7 +21,7 @@ Resultat
 
 ###Kenzas.se###
 
-![kenzas.se](image/kenzas.png?w=700)
+![kenzas.se](image/report/kenzas.png?w=700)
 
 <u>[Home (sida 1)](http://kenzas.se/)</u>
 
@@ -65,7 +65,7 @@ På denna webbplats skulle man bland annat kunna skjuta upp inläsningen av bild
 
 ###Paulas.me###
 
-![paulas.me](image/paulas.png?w=700)
+![paulas.me](image/report/paulas.png?w=700)
 
 <u>[Home (sida 1)](http://paulas.me/)</u>
 
@@ -109,7 +109,7 @@ Sidans totala storlek:	3,87 MB
 
 ###Underbaraclaras.se###
 
-![underbaraclaras.se](image/underbaraclaras.png?w=700)
+![underbaraclaras.se](image/report/underbaraclaras.png?w=700)
 
 <u>[Home (sida 1)](https://underbaraclaras.se/)</u>
 

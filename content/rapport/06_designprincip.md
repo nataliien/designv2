@@ -4,8 +4,6 @@ Analys Designprinciper
 
 I denna rapport kommer jag analysera designprinciper på tre olika webbplatser.
 
-I din rapport berättar du om designen av ditt tema och vilka designelement du valt att jobba med och på vilket sätt du gör det. Ange eventuella källor som förklarar begreppet designelement.
-
 Urval
 -----------------------
 
@@ -21,7 +19,7 @@ Resultat
 
 ###cuteandbroke.com###
 
-![cuteandbroke.com](image/cuteandbroke.png?w=700)
+![cuteandbroke.com](image/report/cuteandbroke.png?w=700)
 
 Cute and broke är ett klädmärke och på webbplatsen finns en webbshop där man kan köpa deras kläder.
 Webbplatsens design är ganska minimalistisk med stora tydliga bilder på kläderna de säljer.
@@ -33,7 +31,7 @@ Framsidan på denna webbplats är i princip bara en "välkomstsida" som länkar 
 
 ###zenvala.com###
 
-![zenvala.com](image/zenvala.png?w=700)
+![zenvala.com](image/report/zenvala.png?w=700)
 
 Denna webbplats är även den en webbplats för ett klädmärke med tillhörande webbshop.
 Det första som står ut för mig är hur färgglad denna webbplats är. Den består av olika nyanser av turkost. I och med färgvalet och bilden på förstasidan (en kvinna i virkad bikini med vatten i bakgrunden) fick jag känslan av att detta var en webbplats för ett bikinimärke. Men efter att ha tittat runt lite verkar webbplatsen ha lite bohemiska kläder/accesoarer. Designen kanske mer hade gynnat en sida för badkläder.
@@ -45,7 +43,7 @@ Liksom på cuteandbroke´s är framsidan en "välkomstsida" som länkar till web
 
 ###all-essentials.com###
 
-![all-essentials.com](image/all-essential.png?w=700)
+![all-essentials.com](image/report/all-essential.png?w=700)
 
 Denna webbplats är en webbshop som säljer kläder, accesoarer och interiör av olika märken.
 Webbplatsen består av många olika bilder och färgerna på webbplatsen går i vitt, svart och olika nyanser av grått.

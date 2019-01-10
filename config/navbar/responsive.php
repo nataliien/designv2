@@ -100,6 +100,16 @@ return [
                         "url" => "rapport/designprinciper",
                         "title" => "Designprinciper",
                     ],
+                    [
+                        "text" => "Webbplatsdesign",
+                        "url" => "rapport/webbplatsdesign",
+                        "title" => "Webbplatsdesign",
+                    ],
+                    [
+                        "text" => "Design och Webbplatser",
+                        "url" => "rapport/design-och-webbplatser",
+                        "title" => "Design och Webbplatser",
+                    ],
                 ],
             ],
         ],

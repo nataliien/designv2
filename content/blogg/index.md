@@ -1,4 +1,6 @@
 ---
+title: "Blog"
+
 views:
     main:
         template: anax/v2/article/default

@@ -19,7 +19,7 @@ Resultat
 
 **Flygresor.se**
 
-![flygresor.se](image/flygresor.jpg?w=700)
+![flygresor.se](image/report/flygresor.jpg?w=700)
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
@@ -36,7 +36,7 @@ Webbplatsen i sig har ett väldigt minimalistiskt utseende. Då de valt att ha f
 
 **Momondo.se**
 
-![momondo.se](image/momondo.jpg?w=700)
+![momondo.se](image/report/momondo.jpg?w=700)
 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
@@ -54,8 +54,8 @@ Av bara den lila färgen att döma hade jag inte gissat att jag hade kommit till
 
 **Skyscanner.se**
 
-![skyscanner.se](image/skyscanner.jpg?w=700)
-![skyscanner.se](image/skyscanner2.jpg?w=700)
+![skyscanner.se](image/report/skyscanner.jpg?w=700)
+![skyscanner.se](image/report/skyscanner2.jpg?w=700)
 
 Färgpalett:
 <table style="border-spacing: 4px; border-collapse: separate">
